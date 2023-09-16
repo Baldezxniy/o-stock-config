@@ -5,4 +5,4 @@ spring:
   datasource:
     url: jdbc:postgresql://localhost:5432/data?sslmode=disable
     username: postgres
-    password: {cipher}a38fe720f7d1ce5bd06ea8b081139ea1a9db3617bec84aa25772ff1a124d8fb7
+    password: {cipher}7c5408f400f5fd60df81ccdad26ac1c53cfbb791140f238f776aaa28935a4447
