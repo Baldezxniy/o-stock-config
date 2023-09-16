@@ -1,4 +1,4 @@
-example.property= "I AM THE DEFAULT"
+message: "I AM THE DEFAULT"
 
 
 # Spring Data JPA and Hibernate Settings
