@@ -1,0 +1,13 @@
+# Spring database settiing (I'll update later)
+spring:
+  database:
+    driverClassName: org.postgresql.Driver
+
+
+# Spring Boot Actuator Settings
+management:
+  endpoints:
+    web:
+      exposure:
+        include: '*'
+  endpoints.enabled-by-default: true
