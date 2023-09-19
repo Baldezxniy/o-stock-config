@@ -14,3 +14,17 @@ management:
 
 server:
   port: 8081
+
+server:
+  port: 8070
+eureka:
+  instance:
+    hostname: localhost
+    preferIpAddress: true
+  client:
+    registerWithEureka: true
+    fetchRegistry: true
+    serviceUrl:
+      defaultZone: "http://${eureka.instance.hostname}:${server.port}/eureka/"
+  server:
+    waitTimeInMsWhenSyncEmpty: 5
