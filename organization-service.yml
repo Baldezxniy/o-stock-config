@@ -11,3 +11,6 @@ management:
       exposure:
         include: '*'
   endpoints.enabled-by-default: true
+
+server:
+  port: 8081
