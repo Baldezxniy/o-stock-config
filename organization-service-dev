@@ -1,0 +1,6 @@
+# DataSource settings
+spring:
+  datasource:
+    url: jdbc:postgresql://localhost:5432/data?sslmode=disable
+    username: postgres
+    password: "{cipher}7c5408f400f5fd60df81ccdad26ac1c53cfbb791140f238f776aaa28935a4447"
