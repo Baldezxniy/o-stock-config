@@ -1,4 +1,6 @@
-# DataSource settings
+message: "I AM DEV"
+
+# DataSource settings: set here your own configurations for the database 
 spring:
   datasource:
     url: jdbc:postgresql://localhost:5432/data?sslmode=disable
