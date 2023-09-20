@@ -3,6 +3,6 @@ message: "I AM DEV"
 # DataSource settings: set here your own configurations for the database 
 spring:
   datasource:
-    url: jdbc:postgresql://database:5432/data?sslmode=disable # jdbc:postgresql://localhost:5432/data?sslmode=disable
+    url: jdbc:postgresql://localhost:5432/data?sslmode=disable # jdbc:postgresql://localhost:5432/data?sslmode=disable
     username: postgres
     password: "{cipher}7c5408f400f5fd60df81ccdad26ac1c53cfbb791140f238f776aaa28935a4447"
