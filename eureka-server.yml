@@ -12,3 +12,10 @@ eureka:
       defaultZone: "http://${eureka.instance.hostname}:${server.port}/eureka/"
   server:
     waitTimeInMsWhenSyncEmpty: 5
+
+spring:
+  cloud:
+    gateway:
+      discovery.locator:
+        enabled: true
+        lowerCaseServiceId: true
