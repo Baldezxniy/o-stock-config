@@ -1,6 +1,14 @@
 server:
  port: 8072
 
+# Spring Boot Actuator Settings
+management:
+  endpoints:
+    web:
+      exposure:
+        include: '*'
+  endpoints.enabled-by-default: true
+
 eureka:
   instance:
     hostname: localhost
