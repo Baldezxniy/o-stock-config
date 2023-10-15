@@ -20,7 +20,8 @@ message: "I AM THE DEFAULT"
 spring:
   database:
     driverClassName: org.postgresql.Driver
-
+server:
+  port: 8180
 
 # Spring Boot Actuator Settings
 management:
